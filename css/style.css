@@ -1,3 +1,6 @@
+root {
+  --body-background: linear-gradient(114deg, #a7f073 10.91%, #5cc923 65.53%);
+}
 /*-- Reset CSS--*/
 
 html,
@@ -171,8 +174,16 @@ img {
 
 /*-- Body --*/
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #6fa068;
+  background: #a7f073;
+  background: -moz-linear-gradient(-45deg, #a7f073 0%, #5cc923 100%);
+  background: -webkit-linear-gradient(-45deg, #a7f073 0%, #5cc923 100%);
+  background: linear-gradient(135deg, #a7f073 0%, #5cc923 100%);
+
   font-family: "Lato", sans-serif;
 }
 
@@ -237,7 +248,7 @@ h2 {
 .container {
   width: 45%;
   margin: 50px auto;
-  background-color: rgba(0, 0, 0, 0.22);
+  background-color: rgba(22, 234, 238, 0.22);
   text-align: center;
 }
 
@@ -247,6 +258,7 @@ h2 {
 
 .sap_tabs {
   clear: both;
+  /* background-color: yellow; */
 }
 
 .tab_box {
@@ -295,6 +307,7 @@ h2 {
 .resp-tabs-container {
   padding: 0px;
   clear: left;
+  /* background-color: red; */
 }
 
 h2.resp-accordion {
