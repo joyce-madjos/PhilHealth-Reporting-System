@@ -1,6 +1,6 @@
 <?php
 
-include_once 'config.php';
+include_once 'php/config.php';
 
 
 $PIN= $_POST['PIN'];
