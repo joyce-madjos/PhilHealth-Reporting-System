@@ -183,7 +183,6 @@ body {
   background: -moz-linear-gradient(-45deg, #a7f073 0%, #5cc923 100%);
   background: -webkit-linear-gradient(-45deg, #a7f073 0%, #5cc923 100%);
   background: linear-gradient(135deg, #a7f073 0%, #5cc923 100%);
-
   font-family: "Lato", sans-serif;
 }
 
@@ -243,22 +242,31 @@ h2 {
 
 /*-- //Heading --*/
 
-/*-- Container --*/
-
-.container {
-  width: 45%;
-  margin: 50px auto;
-  background-color: rgba(22, 234, 238, 0.22);
-  text-align: center;
+.holder {
+  /* width: 45%;
+  margin: 50px auto; */
+  background-color: white;
+  display: flex;
+  /* height: 50vh; */
+  border: 1rem;
 }
 
-/*-- //Container --*/
+.cover {
+  width: 500px;
+  /* height: 80vh; */
+}
 
-/*-- Tabs --*/
+.cover > img {
+  height: 500px;
+  width: 100%;
+}
 
 .sap_tabs {
-  clear: both;
+  /* clear: both; */
   /* background-color: yellow; */
+  overflow: auto;
+  height: 80vh;
+  flex: 1;
 }
 
 .tab_box {
@@ -638,19 +646,19 @@ footer {
 
 /*-- Responsive Code --*/
 
-@media screen and (max-width: 1920px) {
+/* @media screen and (max-width: 1920px) {
   .container {
     width: 38%;
     margin: 100px auto;
   }
-}
+} */
 
-@media screen and (max-width: 1680px) {
+/* @media screen and (max-width: 1680px) {
   .container {
     width: 43%;
     margin: 50px auto;
   }
-}
+} */
 
 @media screen and (max-width: 1600px) {
   .container {
