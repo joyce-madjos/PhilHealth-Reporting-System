@@ -397,6 +397,9 @@ input[type="submit"] {
   background-color: #c2ff90;
   font-size: var(--font-size-base);
   border: none;
+  font-family: var(--heading-font);
+  letter-spacing: 0.25rem;
+  font-weight: 700;
 }
 
 /* .tab-1 form input[type="text"],
