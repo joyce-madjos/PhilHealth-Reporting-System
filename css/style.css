@@ -198,15 +198,6 @@ body a {
   -ms-transition: 0.5s all;
 }
 
-input[type="button"],
-input[type="submit"] {
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-}
-
 ::-webkit-input-placeholder {
   color: black;
 }
@@ -236,6 +227,13 @@ input[type="submit"] {
 
 .cover {
   flex-grow: 1;
+  object-fit: cover;
+  background: #a7f073;
+  background: -moz-linear-gradient(-45deg, #a7f073 0%, #5cc923 100%);
+  background: -webkit-linear-gradient(-45deg, #a7f073 0%, #5cc923 100%);
+  background: linear-gradient(135deg, #a7f073 0%, #5cc923 100%);
+
+  /* border: 1px solid black; */
   /* border-radius: 1.85rem; */
 
   /* flex-basis: 250px; */
@@ -246,7 +244,7 @@ input[type="submit"] {
 .cover > img {
   margin: 0;
   height: 700px;
-  width: auto;
+  width: 100%;
   border-radius: 1.85rem;
 }
 
@@ -409,8 +407,13 @@ input[type="submit"] {
   font-size: var(--font-size-base);
   border: none;
   font-family: var(--heading-font);
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.15rem;
   font-weight: 700;
+  padding: 1rem;
+  border: 1rem;
+  cursor: pointer;
+  /* width: 50%; */
+  /* margin: 0 auto; */
 }
 
 /* .tab-1 form input[type="text"],
@@ -512,7 +515,7 @@ input[type="submit"] {
   margin-bottom: 25px;
 }
 
-.register input[type="submit"],
+/* .register input[type="submit"],
 .reset input[type="submit"] {
   margin-top: 25px;
 }
@@ -736,17 +739,14 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
-  h1 {
-    font-size: 32px;
-  }
-  .container {
-    width: 67%;
-  }
   .member,
   .employer,
   .remittance,
   .receipt {
     grid-template-columns: 1fr;
+  }
+  .cover > img {
+    object-fit: cover;
   }
 }
 
@@ -762,9 +762,6 @@ footer {
   }
   .container {
     width: 75%;
-  }
-  .register input[type="password"] {
-    width: 35.5%;
   }
 }
 
@@ -792,9 +789,13 @@ footer {
   }
   .holder {
     flex-direction: column;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
   }
-  .register input[type="password"] {
-    width: 80%;
+  .cover > img {
+    height: auto;
+    border-radius: 0;
   }
   .copyright p {
     letter-spacing: 1px;
@@ -897,21 +898,9 @@ footer {
   .cbp-ig-grid li {
     height: 140px;
   }
-  .tab-1 form input[type="text"],
-  .tab-1 form input[type="password"],
-  .register input[type="text"],
-  .register input[type="password"],
-  .reset input[type="text"] {
-    padding: 12px 10px;
-    width: 85%;
-  }
+
   .reset p {
     font-size: 18px;
-  }
-  .tab-1 form input[type="submit"],
-  .register input[type="submit"],
-  .reset input[type="submit"] {
-    font-size: 15px;
   }
 }
 
