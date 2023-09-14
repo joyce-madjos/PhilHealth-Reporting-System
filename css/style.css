@@ -564,6 +564,7 @@ footer {
   color: #ffffff;
   font-size: 14px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .copyright a {
