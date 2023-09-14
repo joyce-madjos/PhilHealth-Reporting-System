@@ -365,18 +365,10 @@ h2.resp-accordion {
   margin-right: 8px;
 }
 
-/*-- //Tabs --*/
-
-/*-- Tab-1 --*/
-
-.tab-1 form,
-.register,
-.reset {
-  /* padding: 50px; */
-}
-
-label {
-  /* padding-bottom: 1rem; */
+.member {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 
 input {
@@ -730,6 +722,9 @@ footer {
   }
   .container {
     width: 67%;
+  }
+  .member {
+    grid-template-columns: 1fr;
   }
 }
 
