@@ -767,7 +767,7 @@ footer {
 
 @media screen and (max-width: 853px) {
   .resp-tab-item {
-    font-size: 16px;
+    /* font-size: 16px; */
   }
 }
 
@@ -804,10 +804,7 @@ footer {
 
 @media screen and (max-width: 667px) {
   .resp-tab-item {
-    font-size: 15px;
-  }
-  .container {
-    width: 85%;
+    /* font-size: 15px; */
   }
 }
 
@@ -836,7 +833,7 @@ footer {
     font-size: 35px;
   }
   .resp-tab-item {
-    font-size: 14px;
+    /* font-size: 14px; */
   }
   .tab-1 form,
   .register,
@@ -850,13 +847,13 @@ footer {
     font-size: 30px;
   }
   .resp-tab-item {
-    width: 24.75%;
-    height: 25px;
-    padding-top: 20px;
+    /* width: 24.75%; */
+    /* height: 25px; */
+    /* padding-top: 20px; */
   }
   ul li.resp-tab-item:nth-child(3) {
     padding-top: 13px;
-    height: 32px;
+    /* height: 32px; */
   }
   .cbp-ig-grid li {
     height: 160px;
@@ -871,11 +868,11 @@ footer {
     padding: 30px;
   }
   .resp-tab-item {
-    width: 24.7%;
+    /* width: 24.7%; */
   }
   ul li.resp-tab-item:nth-child(4) {
     padding-top: 13px;
-    height: 32px;
+    /* height: 32px; */
   }
   .cbp-ig-grid .cbp-ig-title::before {
     width: 90px;
@@ -910,6 +907,9 @@ footer {
   }
   .tab-1 form ul {
     margin: 0px 0 20px;
+  }
+  .resp-tabs-list {
+    margin: 0 1rem;
   }
 }
 
