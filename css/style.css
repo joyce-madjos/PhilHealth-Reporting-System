@@ -375,10 +375,14 @@ h2.resp-accordion {
   /* padding: 50px; */
 }
 
+label {
+  /* padding-bottom: 1rem; */
+}
+
 input {
   width: 100%;
   padding: 17px 19px 17px 19px;
-  margin-bottom: 25px;
+  margin: 0.5rem 0 1.5rem 0;
   color: black;
   font-family: "Lato", sans-serif;
   font-size: 15px;
