@@ -313,7 +313,6 @@ body a {
   transition: all 0.3s ease-out;
   width: 24.8%;
   background: #85de4e;
-  float: left;
   padding: 15px 0;
   border-right: 1px solid #777;
 }
@@ -465,7 +464,6 @@ input[type="submit"] {
 
 .cbp-ig-icon:before {
   font-family: "anyoldicon";
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -621,18 +619,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 853px) {
-  .resp-tab-item {
-  }
-}
-
 @media screen and (max-width: 800px) {
-  h1 {
-    font-size: 35px;
-  }
-  .container {
-    width: 78%;
-  }
   .cbp-ig-grid .cbp-ig-title::before {
     left: 65%;
   }
@@ -657,11 +644,6 @@ footer {
   }
 }
 
-@media screen and (max-width: 667px) {
-  .resp-tab-item {
-  }
-}
-
 @media screen and (max-width: 640px) {
   h1 {
     letter-spacing: 1px;
@@ -683,11 +665,6 @@ footer {
 }
 
 @media screen and (max-width: 568px) {
-  h1 {
-    font-size: 35px;
-  }
-  .resp-tab-item {
-  }
   .tab-1 form,
   .register,
   .reset {
@@ -696,11 +673,6 @@ footer {
 }
 
 @media screen and (max-width: 533px) {
-  h1 {
-    font-size: 30px;
-  }
-  .resp-tab-item {
-  }
   ul li.resp-tab-item:nth-child(3) {
     padding-top: 13px;
   }
@@ -710,14 +682,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  h1 {
-    font-size: 25px;
-  }
   .resp-tab-content {
     padding: 30px;
   }
-  .resp-tab-item {
-  }
+
   ul li.resp-tab-item:nth-child(4) {
     padding-top: 13px;
   }
@@ -778,13 +746,6 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
-  h1 {
-    font-size: 20px;
-    line-height: 1.5em;
-  }
-  .container {
-    width: 95%;
-  }
   .resp-tab-item {
     font-size: 12px;
     font-weight: 600;
