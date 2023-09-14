@@ -92,133 +92,216 @@
               <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
                 <!-- Form -->
                 <form action="php/member.php" method="post">
-                  <input
-                    type="text"
-                    name="Piin"
-                    placeholder="PIN Number"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="FullName"
-                    placeholder="Full Name"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="MemberCategory"
-                    placeholder="Member Category"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="SubCategory"
-                    placeholder="Sub Category"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="TIN"
-                    placeholder="TIN Number"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="ForeignAddress"
-                    placeholder="ex. Washington DC or N/A"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="Sex"
-                    placeholder="Sex:	Male or Female"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="DoB"
-                    placeholder="Birthday"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="PoB"
-                    placeholder="Place of Birth"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="CivilStatus"
-                    placeholder="Civil Status: ex. Married or Single"
-                    required=""
-                  />
-                  <input
-                    type="text"
-                    name="NHTSCoverage"
-                    placeholder="Coverage Effectivity Period"
-                    required=""
-                  />
+                  <div class="form-group">
+                    <label for="Piin">PIN Number:</label>
+                    <input
+                      type="text"
+                      id="Piin"
+                      name="Piin"
+                      placeholder="Enter your PIN Number"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="FullName">Full Name:</label>
+                    <input
+                      type="text"
+                      id="FullName"
+                      name="FullName"
+                      placeholder="Enter your Full Name"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="MemberCategory">Member Category:</label>
+                    <input
+                      type="text"
+                      id="MemberCategory"
+                      name="MemberCategory"
+                      placeholder="Enter your Member Category"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="SubCategory">Sub Category:</label>
+                    <input
+                      type="text"
+                      id="SubCategory"
+                      name="SubCategory"
+                      placeholder="Enter your Sub Category"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="TIN">TIN Number:</label>
+                    <input
+                      type="text"
+                      id="TIN"
+                      name="TIN"
+                      placeholder="Enter your TIN Number"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="ForeignAddress">Foreign Address:</label>
+                    <input
+                      type="text"
+                      id="ForeignAddress"
+                      name="ForeignAddress"
+                      placeholder="ex. Washington DC or N/A"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="Sex">Sex:</label>
+                    <input
+                      type="text"
+                      id="Sex"
+                      name="Sex"
+                      placeholder="Enter your Sex (Male or Female)"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="DoB">Birthday:</label>
+                    <input
+                      type="text"
+                      id="DoB"
+                      name="DoB"
+                      placeholder="Enter your Birthday"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="PoB">Place of Birth:</label>
+                    <input
+                      type="text"
+                      id="PoB"
+                      name="PoB"
+                      placeholder="Enter your Place of Birth"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="CivilStatus">Civil Status:</label>
+                    <input
+                      type="text"
+                      id="CivilStatus"
+                      name="CivilStatus"
+                      placeholder="Enter your Civil Status (ex. Married or Single)"
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="NHTSCoverage"
+                      >Coverage Effectivity Period:</label
+                    >
+                    <input
+                      type="text"
+                      id="NHTSCoverage"
+                      name="NHTSCoverage"
+                      placeholder="Enter your Coverage Effectivity Period"
+                      required=""
+                    />
+                  </div>
                   <input type="submit" value="Next >" name="submit1" />
                 </form>
+
                 <!-- //Form -->
               </div>
               <div class="tab-2 resp-tab-content" aria-labelledby="tab_item-2">
                 <div class="register">
                   <form action="php/employer.php" method="post">
-                    <input
-                      type="text"
-                      name="PEN"
-                      placeholder="PhilHealth Employer Number"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="EmpyName"
-                      placeholder="Company Branch"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="FullName"
-                      placeholder="Full Name"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="HeadName"
-                      placeholder="Name of Head"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="BusinessAdd"
-                      placeholder="Business Address"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="ContactNumber"
-                      placeholder="Contact Number"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="EmpyEmailAdd"
-                      placeholder="Company Email Address"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="EmployerType"
-                      placeholder="Type of Employer"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="EmployerSubtype"
-                      placeholder="Employer Sub-Type"
-                      required=""
-                    />
+                    <div class="form-group">
+                      <label for="PEN">PhilHealth Employer Number:</label>
+                      <input
+                        type="text"
+                        id="PEN"
+                        name="PEN"
+                        placeholder="Enter your PhilHealth Employer Number"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="EmpyName">Company Branch:</label>
+                      <input
+                        type="text"
+                        id="EmpyName"
+                        name="EmpyName"
+                        placeholder="Enter your Company Branch"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="FullName">Full Name:</label>
+                      <input
+                        type="text"
+                        id="FullName"
+                        name="FullName"
+                        placeholder="Enter your Full Name"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="HeadName">Name of Head:</label>
+                      <input
+                        type="text"
+                        id="HeadName"
+                        name="HeadName"
+                        placeholder="Enter the Name of Head"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="BusinessAdd">Business Address:</label>
+                      <input
+                        type="text"
+                        id="BusinessAdd"
+                        name="BusinessAdd"
+                        placeholder="Enter your Business Address"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="ContactNumber">Contact Number:</label>
+                      <input
+                        type="text"
+                        id="ContactNumber"
+                        name="ContactNumber"
+                        placeholder="Enter your Contact Number"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="EmpyEmailAdd">Company Email Address:</label>
+                      <input
+                        type="text"
+                        id="EmpyEmailAdd"
+                        name="EmpyEmailAdd"
+                        placeholder="Enter your Company Email Address"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="EmployerType">Type of Employer:</label>
+                      <input
+                        type="text"
+                        id="EmployerType"
+                        name="EmployerType"
+                        placeholder="Enter the Type of Employer"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="EmployerSubtype">Employer Sub-Type:</label>
+                      <input
+                        type="text"
+                        id="EmployerSubtype"
+                        name="EmployerSubtype"
+                        placeholder="Enter the Employer Sub-Type"
+                        required=""
+                      />
+                    </div>
                     <div class="send-button">
                       <input type="submit" value="Next >" name="submit2" />
                     </div>
@@ -228,33 +311,57 @@
               <div class="tab-3 resp-tab-content" aria-labelledby="tab_item-3">
                 <div class="reset">
                   <form action="php/remittance.php" method="post">
-                    <input
-                      type="text"
-                      name="PIN"
-                      placeholder="PIN (PhilHeath Identification Number)"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="Personal_Share"
-                      placeholder="personal share"
-                    />
-                    <input
-                      type="text"
-                      name="cat"
-                      placeholder="PEN (Philhealth Employer Number)"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="Employer_Share"
-                      placeholder="employer share"
-                    />
-                    <input
-                      type="text"
-                      name="Grand_Total_Contribution"
-                      placeholder="grand total contribution"
-                    />
+                    <div class="form-group">
+                      <label for="PIN"
+                        >PIN (PhilHealth Identification Number):</label
+                      >
+                      <input
+                        type="text"
+                        id="PIN"
+                        name="PIN"
+                        placeholder="Enter your PIN"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="Personal_Share">Personal Share:</label>
+                      <input
+                        type="text"
+                        id="Personal_Share"
+                        name="Personal_Share"
+                        placeholder="Enter your personal share"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="cat">PEN (PhilHealth Employer Number):</label>
+                      <input
+                        type="text"
+                        id="cat"
+                        name="cat"
+                        placeholder="Enter your PhilHealth Employer Number"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="Employer_Share">Employer Share:</label>
+                      <input
+                        type="text"
+                        id="Employer_Share"
+                        name="Employer_Share"
+                        placeholder="Enter your employer share"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="Grand_Total_Contribution"
+                        >Grand Total Contribution:</label
+                      >
+                      <input
+                        type="text"
+                        id="Grand_Total_Contribution"
+                        name="Grand_Total_Contribution"
+                        placeholder="Enter grand total contribution"
+                      />
+                    </div>
                     <div class="send-button">
                       <input type="submit" value="Next >" name="submit3" />
                     </div>
@@ -264,36 +371,58 @@
               <div class="tab-4 resp-tab-content" aria-labelledby="tab_item-4">
                 <div class="reset">
                   <form action="php/receipt.php" method="post">
-                    <input
-                      type="text"
-                      name="PEN"
-                      placeholder="PEN (Philhealth Employer Number)"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="App_Period"
-                      placeholder="Applicable Period(ex: July 2021)"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="Rem_Amount"
-                      placeholder="Remmited Amount"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="Transac_Date"
-                      placeholder="Transaction Date"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="employee_num"
-                      placeholder="No. of Employees"
-                      required=""
-                    />
+                    <div class="form-group">
+                      <label for="PEN">PEN (PhilHealth Employer Number):</label>
+                      <input
+                        type="text"
+                        id="PEN"
+                        name="PEN"
+                        placeholder="Enter your PhilHealth Employer Number"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="App_Period"
+                        >Applicable Period (e.g., July 2021):</label
+                      >
+                      <input
+                        type="text"
+                        id="App_Period"
+                        name="App_Period"
+                        placeholder="Enter the Applicable Period"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="Rem_Amount">Remitted Amount:</label>
+                      <input
+                        type="text"
+                        id="Rem_Amount"
+                        name="Rem_Amount"
+                        placeholder="Enter the Remitted Amount"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="Transac_Date">Transaction Date:</label>
+                      <input
+                        type="text"
+                        id="Transac_Date"
+                        name="Transac_Date"
+                        placeholder="Enter the Transaction Date"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="employee_num">No. of Employees:</label>
+                      <input
+                        type="text"
+                        id="employee_num"
+                        name="employee_num"
+                        placeholder="Enter the Number of Employees"
+                        required=""
+                      />
+                    </div>
                     <div class="send-button">
                       <input type="submit" value="Next >" name="submit4" />
                     </div>
