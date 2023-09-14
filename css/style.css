@@ -612,6 +612,7 @@ h2.resp-accordion {
 /*-- Footer --*/
 
 footer {
+  padding: 1rem 0;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   /* padding-bottom: 20px; */
