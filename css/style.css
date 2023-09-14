@@ -258,9 +258,11 @@ input[type="submit"] {
   /* border: 3px solid black; */
 }
 .tabs > h2 {
-  font-family: "League Spartan", sans-serif;
+  font-family: var(--heading-font);
   letter-spacing: 0.25rem;
-  font-size: ;
+  font-size: var(--font-size-md);
+  text-align: center;
+  margin: 2rem 0 1rem;
 }
 
 .sap_tabs {
