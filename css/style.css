@@ -266,6 +266,12 @@ input[type="submit"] {
   margin: 2rem 0 1rem;
 }
 
+#horizontalTab {
+  display: block;
+  width: 100%;
+  margin: 0px;
+}
+
 .sap_tabs {
   /* clear: both; */
   /* background-color: yellow; */
@@ -283,6 +289,9 @@ input[type="submit"] {
 }
 
 .resp-tabs-list {
+  position: sticky;
+  top: 5px;
+
   border: 5px solid black;
   border-radius: 2.5rem;
   list-style: none;
@@ -378,6 +387,12 @@ input {
   border: 1px solid black;
   border-radius: 1rem;
   outline: none;
+}
+
+input[type="submit"] {
+  background-color: #c2ff90;
+  font-size: var(--font-size-base);
+  border: none;
 }
 
 /* .tab-1 form input[type="text"],
