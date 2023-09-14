@@ -227,12 +227,12 @@ input[type="submit"] {
   background-color: white;
   display: flex;
   /* height: 50vh; */
-  border-radius: 1rem;
+  border-radius: 1.85rem;
 }
 
 .cover {
   flex-grow: 1;
-  border-radius: 1rem;
+  /* border-radius: 1.85rem; */
 
   /* flex-basis: 250px; */
   /* width: 500px; */
@@ -243,7 +243,7 @@ input[type="submit"] {
   margin: 0;
   height: 700px;
   width: auto;
-  border-radius: 1rem;
+  border-radius: 1.85rem;
 }
 
 .tabs {
