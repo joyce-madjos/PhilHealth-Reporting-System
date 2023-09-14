@@ -227,7 +227,7 @@ input[type="submit"] {
 
 .holder {
   width: 90%;
-  margin: 0 auto;
+  margin: 1rem auto 0;
   background-color: white;
   display: flex;
   /* height: 50vh; */
