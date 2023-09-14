@@ -262,6 +262,7 @@ input[type="submit"] {
   letter-spacing: 0.25rem;
   font-size: var(--font-size-md);
   text-align: center;
+  font-weight: 700;
   margin: 2rem 0 1rem;
 }
 
@@ -282,8 +283,11 @@ input[type="submit"] {
 }
 
 .resp-tabs-list {
+  border: 5px solid black;
+  border-radius: 2.5rem;
   list-style: none;
   text-align: center;
+  display: flex;
 }
 
 .resp-tab-item {
@@ -299,20 +303,30 @@ input[type="submit"] {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   width: 24.8%;
-  background: #d1d2d4;
+  background: #85de4e;
   float: left;
   padding: 15px 0;
   border-right: 1px solid #777;
 }
 
+.border-left {
+  border-radius: 2.5rem 0 0 2.5rem;
+}
+
+.border-right {
+  border-radius: 0 2.5rem 2.5rem 0;
+  flex-grow: 1;
+}
+
 .resp-tab-item li:nth-child(4) {
-  border-right: 2px solid #3e593a;
+  /* border-radius: 2rem; */
+  border-right: 2px solid pink;
 }
 
 .resp-tab-active {
   text-shadow: none;
   color: #fff;
-  background: #31472e;
+  background: #329900;
 }
 
 .resp-tabs-container {
@@ -731,8 +745,8 @@ footer {
   h1 {
     letter-spacing: 5px;
   }
-  .container {
-    width: 80%;
+  .holder {
+    flex-direction: column;
   }
   .register input[type="password"] {
     width: 80%;
