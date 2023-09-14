@@ -365,7 +365,10 @@ h2.resp-accordion {
   margin-right: 8px;
 }
 
-.member {
+.member,
+.employer,
+.remittance,
+.receipt {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
@@ -723,7 +726,10 @@ footer {
   .container {
     width: 67%;
   }
-  .member {
+  .member,
+  .employer,
+  .remittance,
+  .receipt {
     grid-template-columns: 1fr;
   }
 }

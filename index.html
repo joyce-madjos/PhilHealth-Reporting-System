@@ -218,86 +218,95 @@
               <div class="tab-2 resp-tab-content" aria-labelledby="tab_item-2">
                 <div class="register">
                   <form action="php/employer.php" method="post">
-                    <div class="form-group">
-                      <label for="PEN">PhilHealth Employer Number:</label>
-                      <input
-                        type="text"
-                        id="PEN"
-                        name="PEN"
-                        placeholder="Enter your PhilHealth Employer Number"
-                        required=""
-                      />
+                    <div class="employer">
+                      <div class="left-employer">
+                        <div class="form-group">
+                          <label for="PEN">PhilHealth Employer Number:</label>
+                          <input
+                            type="text"
+                            id="PEN"
+                            name="PEN"
+                            placeholder="Enter your PhilHealth Employer Number"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="EmpyName">Company Branch:</label>
+                          <input
+                            type="text"
+                            id="EmpyName"
+                            name="EmpyName"
+                            placeholder="Enter your Company Branch"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="FullName">Full Name:</label>
+                          <input
+                            type="text"
+                            id="FullName"
+                            name="FullName"
+                            placeholder="Enter your Full Name"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="HeadName">Name of Head:</label>
+                          <input
+                            type="text"
+                            id="HeadName"
+                            name="HeadName"
+                            placeholder="Enter the Name of Head"
+                            required=""
+                          />
+                        </div>
+                      </div>
+                      <div class="right-employer">
+                        <div class="form-group">
+                          <label for="BusinessAdd">Business Address:</label>
+                          <input
+                            type="text"
+                            id="BusinessAdd"
+                            name="BusinessAdd"
+                            placeholder="Enter your Business Address"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="ContactNumber">Contact Number:</label>
+                          <input
+                            type="text"
+                            id="ContactNumber"
+                            name="ContactNumber"
+                            placeholder="Enter your Contact Number"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="EmpyEmailAdd"
+                            >Company Email Address:</label
+                          >
+                          <input
+                            type="text"
+                            id="EmpyEmailAdd"
+                            name="EmpyEmailAdd"
+                            placeholder="Enter your Company Email Address"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="EmployerType">Type of Employer:</label>
+                          <input
+                            type="text"
+                            id="EmployerType"
+                            name="EmployerType"
+                            placeholder="Enter the Type of Employer"
+                            required=""
+                          />
+                        </div>
+                      </div>
                     </div>
-                    <div class="form-group">
-                      <label for="EmpyName">Company Branch:</label>
-                      <input
-                        type="text"
-                        id="EmpyName"
-                        name="EmpyName"
-                        placeholder="Enter your Company Branch"
-                        required=""
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="FullName">Full Name:</label>
-                      <input
-                        type="text"
-                        id="FullName"
-                        name="FullName"
-                        placeholder="Enter your Full Name"
-                        required=""
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="HeadName">Name of Head:</label>
-                      <input
-                        type="text"
-                        id="HeadName"
-                        name="HeadName"
-                        placeholder="Enter the Name of Head"
-                        required=""
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="BusinessAdd">Business Address:</label>
-                      <input
-                        type="text"
-                        id="BusinessAdd"
-                        name="BusinessAdd"
-                        placeholder="Enter your Business Address"
-                        required=""
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="ContactNumber">Contact Number:</label>
-                      <input
-                        type="text"
-                        id="ContactNumber"
-                        name="ContactNumber"
-                        placeholder="Enter your Contact Number"
-                        required=""
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="EmpyEmailAdd">Company Email Address:</label>
-                      <input
-                        type="text"
-                        id="EmpyEmailAdd"
-                        name="EmpyEmailAdd"
-                        placeholder="Enter your Company Email Address"
-                        required=""
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="EmployerType">Type of Employer:</label>
-                      <input
-                        type="text"
-                        id="EmployerType"
-                        name="EmployerType"
-                        placeholder="Enter the Type of Employer"
-                        required=""
-                      />
-                    </div>
+
                     <div class="form-group">
                       <label for="EmployerSubtype">Employer Sub-Type:</label>
                       <input
@@ -317,46 +326,55 @@
               <div class="tab-3 resp-tab-content" aria-labelledby="tab_item-3">
                 <div class="reset">
                   <form action="php/remittance.php" method="post">
-                    <div class="form-group">
-                      <label for="PIN"
-                        >PIN (PhilHealth Identification Number):</label
-                      >
-                      <input
-                        type="text"
-                        id="PIN"
-                        name="PIN"
-                        placeholder="Enter your PIN"
-                        required=""
-                      />
+                    <div class="remittance">
+                      <div class="left">
+                        <div class="form-group">
+                          <label for="PIN"
+                            >PIN (PhilHealth Identification Number):</label
+                          >
+                          <input
+                            type="text"
+                            id="PIN"
+                            name="PIN"
+                            placeholder="Enter your PIN"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="Personal_Share">Personal Share:</label>
+                          <input
+                            type="text"
+                            id="Personal_Share"
+                            name="Personal_Share"
+                            placeholder="Enter your personal share"
+                          />
+                        </div>
+                      </div>
+                      <div class="right">
+                        <div class="form-group">
+                          <label for="cat"
+                            >PEN (PhilHealth Employer Number):</label
+                          >
+                          <input
+                            type="text"
+                            id="cat"
+                            name="cat"
+                            placeholder="Enter your PhilHealth Employer Number"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="Employer_Share">Employer Share:</label>
+                          <input
+                            type="text"
+                            id="Employer_Share"
+                            name="Employer_Share"
+                            placeholder="Enter your employer share"
+                          />
+                        </div>
+                      </div>
                     </div>
-                    <div class="form-group">
-                      <label for="Personal_Share">Personal Share:</label>
-                      <input
-                        type="text"
-                        id="Personal_Share"
-                        name="Personal_Share"
-                        placeholder="Enter your personal share"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="cat">PEN (PhilHealth Employer Number):</label>
-                      <input
-                        type="text"
-                        id="cat"
-                        name="cat"
-                        placeholder="Enter your PhilHealth Employer Number"
-                        required=""
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="Employer_Share">Employer Share:</label>
-                      <input
-                        type="text"
-                        id="Employer_Share"
-                        name="Employer_Share"
-                        placeholder="Enter your employer share"
-                      />
-                    </div>
+
                     <div class="form-group">
                       <label for="Grand_Total_Contribution"
                         >Grand Total Contribution:</label
@@ -377,48 +395,57 @@
               <div class="tab-4 resp-tab-content" aria-labelledby="tab_item-4">
                 <div class="reset">
                   <form action="php/receipt.php" method="post">
-                    <div class="form-group">
-                      <label for="PEN">PEN (PhilHealth Employer Number):</label>
-                      <input
-                        type="text"
-                        id="PEN"
-                        name="PEN"
-                        placeholder="Enter your PhilHealth Employer Number"
-                        required=""
-                      />
+                    <div class="receipt">
+                      <div class="left">
+                        <div class="form-group">
+                          <label for="PEN"
+                            >PEN (PhilHealth Employer Number):</label
+                          >
+                          <input
+                            type="text"
+                            id="PEN"
+                            name="PEN"
+                            placeholder="Enter your PhilHealth Employer Number"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="App_Period"
+                            >Applicable Period (e.g., July 2021):</label
+                          >
+                          <input
+                            type="text"
+                            id="App_Period"
+                            name="App_Period"
+                            placeholder="Enter the Applicable Period"
+                            required=""
+                          />
+                        </div>
+                      </div>
+                      <div class="right">
+                        <div class="form-group">
+                          <label for="Rem_Amount">Remitted Amount:</label>
+                          <input
+                            type="text"
+                            id="Rem_Amount"
+                            name="Rem_Amount"
+                            placeholder="Enter the Remitted Amount"
+                            required=""
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="Transac_Date">Transaction Date:</label>
+                          <input
+                            type="text"
+                            id="Transac_Date"
+                            name="Transac_Date"
+                            placeholder="Enter the Transaction Date"
+                            required=""
+                          />
+                        </div>
+                      </div>
                     </div>
-                    <div class="form-group">
-                      <label for="App_Period"
-                        >Applicable Period (e.g., July 2021):</label
-                      >
-                      <input
-                        type="text"
-                        id="App_Period"
-                        name="App_Period"
-                        placeholder="Enter the Applicable Period"
-                        required=""
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="Rem_Amount">Remitted Amount:</label>
-                      <input
-                        type="text"
-                        id="Rem_Amount"
-                        name="Rem_Amount"
-                        placeholder="Enter the Remitted Amount"
-                        required=""
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="Transac_Date">Transaction Date:</label>
-                      <input
-                        type="text"
-                        id="Transac_Date"
-                        name="Transac_Date"
-                        placeholder="Enter the Transaction Date"
-                        required=""
-                      />
-                    </div>
+
                     <div class="form-group">
                       <label for="employee_num">No. of Employees:</label>
                       <input
